@@ -1,0 +1,25 @@
+{
+  "name": "platform-gestion-proyectos-agiles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha --require ts-node/register 'tests/**/*.test.ts'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.0",
+    "redis": "^4.6.4",
+    "elasticsearch": "^17.4.0",
+    "passport": "^0.6.0",
+    "pino": "^8.9.1",
+    "prometheus-client": "^0.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7"
+  }
+}
